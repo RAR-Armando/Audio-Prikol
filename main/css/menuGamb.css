@@ -52,7 +52,7 @@ label {
 	padding: 17px 0;
 	text-transform: uppercase;
 	line-height: 2em;
-	background-color: rgb(183, 0, 255);
+	background-color: #d68a59;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
 	transform: translateX(-100%);
@@ -77,6 +77,7 @@ label {
 }
 
 .menu__item {
+	font-size: 26px;
 	display: block;
 	text-align: center;
 	text-decoration: none;
