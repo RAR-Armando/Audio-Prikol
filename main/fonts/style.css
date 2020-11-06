@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Born Strong';
+    src: local('Born Strong Bold Italic Rough'), local('Born-Strong-Bold-Italic-Rough'),
+        url('BornStrong-BoldItalicRough.woff2') format('woff2'),
+        url('BornStrong-BoldItalicRough.woff') format('woff'),
+        url('BornStrong-BoldItalicRough.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }

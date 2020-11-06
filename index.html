@@ -1,103 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<style>
-		.section {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-	</style>
-	<link rel="shortcut icon" href="main/img/music.png" type="image/png" />
-	<link rel="stylesheet" href="main/css/style.css" />
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<title>Audio-prikol</title>
+    <link rel="stylesheet" href="main/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio-Prikol</title>
 </head>
-
 <body>
-	<div class="header">
-		<nav class="nav">
-			<input class="nav__check" type="checkbox" id="showmenu" />
-			<label class="nav__showmenu" for="showmenu">&#9776;</label>
-			<label class="nav__back" for="showmenu"></label>
-			<ul class="menu">
-				<li>
-					<a class="menu__item" href="index.html">Каталог</a>
-				</li>
+<header class="header">
+    <h1 class="title">Audio-Prikol</h1>
+    <nav class="nav-menu">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="" class="nav-link" href="">На Главную</a></li>
+            <li><a href="HTML/me.html" class="nav-link" href="">О нас</a></li>
+            <li><a href="https://money.yandex.ru/transfer/quickpay?requestId=343139343931343037365f33313732323339633463393330323637363261353363616365656337663936646538653763396463" class="nav-link" href="">Помощь</a></li>
+        </ul>
+    </nav>
+</header>
+            
+<section class="flex-center-colum section">
+<div class="card">
+       <img class="card-img" src="main/img/ded_0-pic905-895x505-69260.jpg" alt="">
+       <h1 class="card-title">Альбом Пахома</h1>
+       <p class="card-text text-min">Победитель "Битвы Экстрасенсов", Знаменитость</p>
+       <a href="HTML/paxom.html"><button class="card-btn">Перейти</button></a>
+</div>
+   <div class="card">
+    <img class="card-img" src="main/img/pozik.png" alt="">
+    <h1 class="card-title">Альбом Поцыка</h1>
+    <p class="card-text">Опасный Поцык, Что тут сказать</p>
+    <a href="HTML/pozik.html"><button class="card-btn">Перейти</button></a>
+</div>
+<div class="card">
+    <img class="card-img" src="main/img/kand.jpg" alt="">
+    <h1 class="card-title">Разное</h1>
+    <p class="card-text">Здесь просто разное</p>
+    <a href="HTML/raznoe.html"><button class="card-btn">Перейти</button></a>
+</div>
 
-				<li>
-					<a class="menu__item" href="https://t.me/RAR_Nikita">Контакт</a>
-				</li>
-				<li>
-					<a class="menu__item" href="HTML/me.html">О нас</a>
-				</li>
-			</ul>
-		</nav>
-		<p style="
-					z-index: 1;
-					font-family: 'Dancing Script', cursive;
-					float: right;
-					font-size: 40px;
-					position: absolute;
-					top: -30px;
-					right: 15px;
-					font-weight: 500;
-				">
-			Audio-Prikol
-		</p>
-	</div>
-	<section class="section">
-		<div class="cardShell">
-			<a href="HTML/audioHTML/paxom.html">
-				<div class="card">
-					<img src="main/img/paxom.png" alt="" class="imgAlb" />
-					<p class="textT">Альбом Пахома</p>
-				</div>
-			</a>
-			<a href="HTML/audioHTML/raznoe.html">
-				<div class="card">
-					<img src="main/img/raznoe.png" alt="" class="imgAlb" />
-					<p class="textT">Разное</p>
-				</div>
-			</a>
-			<a href="HTML/audioHTML/pozik.html">
-				<div class="card">
-					<img src="main/img/pozik.png" alt="" class="imgAlb" />
-					<p class="textT">Альбом Поцыка</p>
-				</div>
-			</a>
-			<a href="HTML/audioHTML/musicJanr.html">
-				<div class="card">
-					<img style="width: 384px; height:244px ;" src="main/img/maxresdefault.jpg" alt="" class="imgAlb" />
-					<p class="textT">Для <span style="font-family: 'Dancing Script', cursive;">МЖ</span></p>
-				</div>
-			</a>
-		</div>
-	</section>
-	<footer>
-		<div class="foot">
-			<p style="color: aliceblue; font-size: 24px">
-				Создатель Этого Чудо <span style="font-family: 'Dancing Script', cursive;">RAR</span>
-			</p>
-			<p style="color: aliceblue; font-size: 14px">
-				Помощники:<br />
-				Матвей Пахомов<br />
-				Максим Матвеев
+</section>
 
-			</p>
-			<div class="socialLink">
-				<a href="https://www.instagram.com/nikitka_hsl/?hl=ru" target="_blank"><img class="fa" src="main/img/2.png"
-						alt="" /></a>
-
-				<a href="https://vk.com/rar_nikitka" target="_blank"><img class="fa" src="main/img/3.png" alt="" /></a>
-
-				<a href="https://t.me/RAR_Nikita" target="_blank"><img class="fa" src="main/img/4.png" alt="" /></a>
-			</div>
-		</div>
-	</footer>
+    <script src="main/js/app.js"></script>
 </body>
-
 </html>
